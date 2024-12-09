@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+}
+.container{
+    border: 6px solid blueviolet;
+    display: flex; /*flex - (This is to display the content in block*/
+    /*flex-direction: row(left to right), row-reverse(right to left)/column(top to bottom), column-reverse(bottom to top)*/
+    /* flex-wrap: wrap; /*wrap; This is to wrap the webpage if you want to minimize to the max*/
+    height: 600px;
+    /*flex-wrap: wrap-reverse;/*Items in the last will move above in the reverse order when we shrink the page*/
+    /*flex-wrap: nowrap;*/
+    /* flex-flow: row wrap; Syntax: flex-flow - <flex-direction> <flex-wrap> */
+    /* column-gap: 1%; */
+    /*gap: 1% 1%*/
+    /* justify-content: center; flex-start, flex-end, center, space-between, space-around, space-evenly */
+    /* align-items: baseline, flex-start, flex-end, center, stretch */
+    /* flex-direction: column; */
+    /* align-content: space-around; */ 
+}
+.flex{
+    color: black;
+    font-size: 1.3rem;
+    padding: 1rem;
+    /* text-align: center; */
+    /* flex-grow: 1; */
+    /* flex-shrink: 1; */
+    /* width: 6rem; */
+    /* for flex-grow, flex-shrink, flex-basis there is a short code called - flex.
+    Syntax : flex:2 5 150px(<flex-grow> <flex-shrink> <flex-basis>) */
+}
+.Item-1{
+    background-color: burlywood;
+    /* padding-bottom: 10rem; */
+    align-self: start;
+}
+.Item-2{
+    background-color: peru;
+    /* padding-bottom: 5rem; */
+    align-self: flex-end;
+}
+.Item-3{
+    background-color: purple;
+    /* padding-bottom: 20rem; */
+    align-self: center;
+}
+.Item-4{
+    background-color: aliceblue;
+    /* padding-bottom: 15rem; */
+    /* flex-shrink: 4; */
+    align-self: stretch;
+}
+.Item-5{
+    background-color: aqua;
+    align-self: autob  ;
+}
+.Item-6{
+    background-color: brown;
+}
+.Item-7{
+    background-color: magenta;
+}
+.Item-8{
+    background-color: beige;
+    /* order: 2; */
+}
+.Item-9{
+    background-color: yellowgreen;
+}

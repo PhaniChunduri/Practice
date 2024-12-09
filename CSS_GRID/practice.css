@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+}
+.container{
+    border: 6px solid blueviolet;
+    display: grid;
+    /* height: 800px; */
+    /* grid-template-columns: repeat(6, 150px); This is to make a grid with 6 columns with 150px */
+    /* grid-template: repeat(3, 200px) / repeat(3, 200px); Syntax : <grid-template> : <grid-template-rows> / <grid-template-columns> */
+    /* column-gap: 20px;
+    row-gap: 15px; */
+    /*gap : 15px, 20px Short code for the above two lines*/   
+    /* justify-items: center; */
+    /* align-items: end; */
+    /* place-items: start end; Short code for the above two lines   */
+    /* justify-content: space-evenly; */
+    /* align-content: space-around; */
+    /* place-content: center;Short code for the above two lines   */
+    grid-auto-flow: column;
+}
+   
+.grid{
+    color: black;
+    font-size: 1.3rem;
+    padding: 1rem;
+    text-align: center;
+}
+.Item-1{
+    background-color: burlywood;
+}
+.Item-2{
+    background-color: peru;
+}
+.Item-3{
+    background-color: purple;
+}
+.Item-4{
+    background-color: aliceblue;
+}
+.Item-5{
+    background-color: aqua;
+}
+.Item-6{
+    background-color: brown;
+}
+.Item-7{
+    background-color: magenta;
+}
+.Item-8{
+    background-color: beige;
+    /* order: 2; */
+}
+.Item-9{
+    background-color: yellowgreen;
+}

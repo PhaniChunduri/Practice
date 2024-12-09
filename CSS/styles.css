@@ -1,0 +1,56 @@
+.wrong{
+    color: red;
+}
+#test{
+    color: green;
+}
+#div{
+    background: aqua;
+}
+.span{
+    background: violet;
+}
+.fontone{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-size: 27px;
+    
+}
+.fonttwo{
+    font-family: 'Times New Roman', Times, serif;
+}
+.box{
+    text-align: center;
+    border: 20px solid blue;
+    padding-left: 10px;
+    height: 70px;
+    width: 200px;
+    margin-right: 10px;
+}
+h2{
+    color: navy;
+}
+h2{
+    color: brown;
+}
+td,th {
+    border: 10px solid maroon;
+    text-align: center;
+    height: 30px;
+}
+table{
+    border-collapse: collapse;
+    width: 75%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
